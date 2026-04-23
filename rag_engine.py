@@ -62,7 +62,7 @@ class RAGEngine:
 
         # Embedding model — converts text to dense vectors
         self.embeddings = GoogleGenerativeAIEmbeddings(
-            model="models/embedding-001",
+            model="models/text-embedding-004",
             google_api_key=api_key
         )
 
